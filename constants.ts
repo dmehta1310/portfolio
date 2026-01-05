@@ -2,8 +2,8 @@ import { Project, Experience, Education, SkillCategory, Certification, Publicati
 
 export const SOCIAL_LINKS = {
   email: "mehtadhruvi0902@gmail.com",
-  linkedin: "https://linkedin.com",
-  github: "https://github.com",
+  linkedin: "https://www.linkedin.com/in/dhruvimehta13/",
+  github: "https://github.com/dmehta1310",
   phone: "+1 (978) 305-6262",
   location: "Boston, MA"
 };
@@ -168,7 +168,7 @@ export const PROJECTS_DATA: ProjectEnhanced[] = [
       { label: "Efficiency", value: "+40%", icon: "zap" }
     ],
     links: { github: "#" },
-    image: "https://images.unsplash.com/photo-1611974717483-5828fb770210?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "healthcare-analytics",
@@ -180,7 +180,7 @@ export const PROJECTS_DATA: ProjectEnhanced[] = [
       { label: "Records", value: "500K", icon: "activity" }
     ],
     links: { github: "#" },
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "airbnb-analysis",
@@ -192,7 +192,7 @@ export const PROJECTS_DATA: ProjectEnhanced[] = [
       { label: "KPIs", value: "15+", icon: "bar-chart" }
     ],
     links: { github: "#" },
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "credit-risk",
@@ -204,7 +204,7 @@ export const PROJECTS_DATA: ProjectEnhanced[] = [
       { label: "Accuracy", value: "91%", icon: "cpu" }
     ],
     links: { github: "#" },
-    image: "https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
   }
 ];
 

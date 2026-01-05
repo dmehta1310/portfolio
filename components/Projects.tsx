@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
                     <motion.img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-1000"
+                      className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
                     />
                     
                     {/* Scanning Overlay - Faster & Sharper */}
@@ -153,21 +153,9 @@ const Projects: React.FC = () => {
 
                     {/* Interactive Command Center */}
                     <div 
-                      className="absolute inset-0 bg-[#020617]/85 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center gap-8 z-10 backdrop-blur-xl"
+                      className="absolute inset-0 bg-[#020617]/85 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center gap-8 z-10"
                       style={{ transform: "translateZ(100px)" }}
                     >
-                      {project.links.github && (
-                        <motion.a 
-                          whileHover={{ scale: 1.1, y: -5, backgroundColor: "#fff", color: "#000" }}
-                          whileTap={{ scale: 0.9 }}
-                          href={project.links.github} 
-                          target="_blank"
-                          className="p-6 bg-white/5 border border-white/10 rounded-[30px] text-white shadow-2xl transition-all flex flex-col items-center gap-3"
-                        >
-                          <Github size={26} />
-                          <span className="text-[9px] font-black uppercase tracking-[0.3em]">Source</span>
-                        </motion.a>
-                      )}
                       {project.links.demo && (
                         <motion.a 
                           whileHover={{ scale: 1.1, y: -5, backgroundColor: "#22d3ee", color: "#000" }}
@@ -235,7 +223,9 @@ const Projects: React.FC = () => {
             className="mt-32 text-center"
           >
             <a 
-              href="#" 
+              href="https://github.com/dmehta1310" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-6 text-slate-500 hover:text-cyan-400 font-black uppercase tracking-[0.6em] text-[10px] transition-all group p-4 border border-transparent hover:border-cyan-500/10 rounded-full"
             >
               Access Complete Repository

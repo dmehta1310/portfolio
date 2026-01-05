@@ -93,7 +93,9 @@ const Hero: React.FC = () => {
           </MagneticButton>
           
           <MagneticButton
-            href="#"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-4 glass-card border-white/10 text-white px-10 py-5 rounded-[20px] font-black uppercase tracking-[0.2em] text-[10px] transition-all hover:bg-white/10 hover:border-white/20"
           >
             <span>Resume</span>
